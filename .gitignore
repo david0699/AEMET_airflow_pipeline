@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+unittests.cfg
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints
+
+# Project folders
+data/
+*.sqlite
